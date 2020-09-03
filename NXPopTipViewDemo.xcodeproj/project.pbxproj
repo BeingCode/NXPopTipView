@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		58242944250073E1001EC3C3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 58242943250073E1001EC3C3 /* AppDelegate.m */; };
+		58242947250073E1001EC3C3 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 58242946250073E1001EC3C3 /* SceneDelegate.m */; };
+		5824294A250073E1001EC3C3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58242949250073E1001EC3C3 /* ViewController.m */; };
+		5824294D250073E1001EC3C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5824294B250073E1001EC3C3 /* Main.storyboard */; };
+		5824294F250073E2001EC3C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5824294E250073E2001EC3C3 /* Assets.xcassets */; };
+		58242952250073E2001EC3C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58242950250073E2001EC3C3 /* LaunchScreen.storyboard */; };
+		58242955250073E2001EC3C3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 58242954250073E2001EC3C3 /* main.m */; };
+		5824295F250073E3001EC3C3 /* NXPopTipViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5824295E250073E3001EC3C3 /* NXPopTipViewDemoTests.m */; };
+		5824296A250073E3001EC3C3 /* NXPopTipViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 58242969250073E3001EC3C3 /* NXPopTipViewDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5824295B250073E3001EC3C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 58242937250073E1001EC3C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5824293E250073E1001EC3C3;
+			remoteInfo = NXPopTipViewDemo;
+		};
+		58242966250073E3001EC3C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 58242937250073E1001EC3C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5824293E250073E1001EC3C3;
+			remoteInfo = NXPopTipViewDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5824293F250073E1001EC3C3 /* NXPopTipViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NXPopTipViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		58242942250073E1001EC3C3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		58242943250073E1001EC3C3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		58242945250073E1001EC3C3 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		58242946250073E1001EC3C3 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		58242948250073E1001EC3C3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		58242949250073E1001EC3C3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5824294C250073E1001EC3C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5824294E250073E2001EC3C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		58242951250073E2001EC3C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		58242953250073E2001EC3C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58242954250073E2001EC3C3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5824295A250073E3001EC3C3 /* NXPopTipViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NXPopTipViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5824295E250073E3001EC3C3 /* NXPopTipViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NXPopTipViewDemoTests.m; sourceTree = "<group>"; };
+		58242960250073E3001EC3C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58242965250073E3001EC3C3 /* NXPopTipViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NXPopTipViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		58242969250073E3001EC3C3 /* NXPopTipViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NXPopTipViewDemoUITests.m; sourceTree = "<group>"; };
+		5824296B250073E3001EC3C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5824293C250073E1001EC3C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58242957250073E3001EC3C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58242962250073E3001EC3C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		58242936250073E1001EC3C3 = {
+			isa = PBXGroup;
+			children = (
+				58242941250073E1001EC3C3 /* NXPopTipViewDemo */,
+				5824295D250073E3001EC3C3 /* NXPopTipViewDemoTests */,
+				58242968250073E3001EC3C3 /* NXPopTipViewDemoUITests */,
+				58242940250073E1001EC3C3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		58242940250073E1001EC3C3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5824293F250073E1001EC3C3 /* NXPopTipViewDemo.app */,
+				5824295A250073E3001EC3C3 /* NXPopTipViewDemoTests.xctest */,
+				58242965250073E3001EC3C3 /* NXPopTipViewDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		58242941250073E1001EC3C3 /* NXPopTipViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				58242942250073E1001EC3C3 /* AppDelegate.h */,
+				58242943250073E1001EC3C3 /* AppDelegate.m */,
+				58242945250073E1001EC3C3 /* SceneDelegate.h */,
+				58242946250073E1001EC3C3 /* SceneDelegate.m */,
+				58242948250073E1001EC3C3 /* ViewController.h */,
+				58242949250073E1001EC3C3 /* ViewController.m */,
+				5824294B250073E1001EC3C3 /* Main.storyboard */,
+				5824294E250073E2001EC3C3 /* Assets.xcassets */,
+				58242950250073E2001EC3C3 /* LaunchScreen.storyboard */,
+				58242953250073E2001EC3C3 /* Info.plist */,
+				58242954250073E2001EC3C3 /* main.m */,
+			);
+			path = NXPopTipViewDemo;
+			sourceTree = "<group>";
+		};
+		5824295D250073E3001EC3C3 /* NXPopTipViewDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				5824295E250073E3001EC3C3 /* NXPopTipViewDemoTests.m */,
+				58242960250073E3001EC3C3 /* Info.plist */,
+			);
+			path = NXPopTipViewDemoTests;
+			sourceTree = "<group>";
+		};
+		58242968250073E3001EC3C3 /* NXPopTipViewDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				58242969250073E3001EC3C3 /* NXPopTipViewDemoUITests.m */,
+				5824296B250073E3001EC3C3 /* Info.plist */,
+			);
+			path = NXPopTipViewDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5824293E250073E1001EC3C3 /* NXPopTipViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5824296E250073E3001EC3C3 /* Build configuration list for PBXNativeTarget "NXPopTipViewDemo" */;
+			buildPhases = (
+				5824293B250073E1001EC3C3 /* Sources */,
+				5824293C250073E1001EC3C3 /* Frameworks */,
+				5824293D250073E1001EC3C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NXPopTipViewDemo;
+			productName = NXPopTipViewDemo;
+			productReference = 5824293F250073E1001EC3C3 /* NXPopTipViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		58242959250073E3001EC3C3 /* NXPopTipViewDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58242971250073E3001EC3C3 /* Build configuration list for PBXNativeTarget "NXPopTipViewDemoTests" */;
+			buildPhases = (
+				58242956250073E3001EC3C3 /* Sources */,
+				58242957250073E3001EC3C3 /* Frameworks */,
+				58242958250073E3001EC3C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5824295C250073E3001EC3C3 /* PBXTargetDependency */,
+			);
+			name = NXPopTipViewDemoTests;
+			productName = NXPopTipViewDemoTests;
+			productReference = 5824295A250073E3001EC3C3 /* NXPopTipViewDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		58242964250073E3001EC3C3 /* NXPopTipViewDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58242974250073E3001EC3C3 /* Build configuration list for PBXNativeTarget "NXPopTipViewDemoUITests" */;
+			buildPhases = (
+				58242961250073E3001EC3C3 /* Sources */,
+				58242962250073E3001EC3C3 /* Frameworks */,
+				58242963250073E3001EC3C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				58242967250073E3001EC3C3 /* PBXTargetDependency */,
+			);
+			name = NXPopTipViewDemoUITests;
+			productName = NXPopTipViewDemoUITests;
+			productReference = 58242965250073E3001EC3C3 /* NXPopTipViewDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		58242937250073E1001EC3C3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = next;
+				TargetAttributes = {
+					5824293E250073E1001EC3C3 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					58242959250073E3001EC3C3 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 5824293E250073E1001EC3C3;
+					};
+					58242964250073E3001EC3C3 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 5824293E250073E1001EC3C3;
+					};
+				};
+			};
+			buildConfigurationList = 5824293A250073E1001EC3C3 /* Build configuration list for PBXProject "NXPopTipViewDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 58242936250073E1001EC3C3;
+			productRefGroup = 58242940250073E1001EC3C3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5824293E250073E1001EC3C3 /* NXPopTipViewDemo */,
+				58242959250073E3001EC3C3 /* NXPopTipViewDemoTests */,
+				58242964250073E3001EC3C3 /* NXPopTipViewDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5824293D250073E1001EC3C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58242952250073E2001EC3C3 /* LaunchScreen.storyboard in Resources */,
+				5824294F250073E2001EC3C3 /* Assets.xcassets in Resources */,
+				5824294D250073E1001EC3C3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58242958250073E3001EC3C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58242963250073E3001EC3C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5824293B250073E1001EC3C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5824294A250073E1001EC3C3 /* ViewController.m in Sources */,
+				58242944250073E1001EC3C3 /* AppDelegate.m in Sources */,
+				58242955250073E2001EC3C3 /* main.m in Sources */,
+				58242947250073E1001EC3C3 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58242956250073E3001EC3C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5824295F250073E3001EC3C3 /* NXPopTipViewDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58242961250073E3001EC3C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5824296A250073E3001EC3C3 /* NXPopTipViewDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5824295C250073E3001EC3C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5824293E250073E1001EC3C3 /* NXPopTipViewDemo */;
+			targetProxy = 5824295B250073E3001EC3C3 /* PBXContainerItemProxy */;
+		};
+		58242967250073E3001EC3C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5824293E250073E1001EC3C3 /* NXPopTipViewDemo */;
+			targetProxy = 58242966250073E3001EC3C3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5824294B250073E1001EC3C3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5824294C250073E1001EC3C3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		58242950250073E2001EC3C3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				58242951250073E2001EC3C3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5824296C250073E3001EC3C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5824296D250073E3001EC3C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5824296F250073E3001EC3C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NXPopTipViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = next.com.NXPopTipViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		58242970250073E3001EC3C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NXPopTipViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = next.com.NXPopTipViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		58242972250073E3001EC3C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NXPopTipViewDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = next.com.NXPopTipViewDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NXPopTipViewDemo.app/NXPopTipViewDemo";
+			};
+			name = Debug;
+		};
+		58242973250073E3001EC3C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NXPopTipViewDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = next.com.NXPopTipViewDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NXPopTipViewDemo.app/NXPopTipViewDemo";
+			};
+			name = Release;
+		};
+		58242975250073E3001EC3C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NXPopTipViewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = next.com.NXPopTipViewDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NXPopTipViewDemo;
+			};
+			name = Debug;
+		};
+		58242976250073E3001EC3C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NXPopTipViewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = next.com.NXPopTipViewDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NXPopTipViewDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5824293A250073E1001EC3C3 /* Build configuration list for PBXProject "NXPopTipViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5824296C250073E3001EC3C3 /* Debug */,
+				5824296D250073E3001EC3C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5824296E250073E3001EC3C3 /* Build configuration list for PBXNativeTarget "NXPopTipViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5824296F250073E3001EC3C3 /* Debug */,
+				58242970250073E3001EC3C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58242971250073E3001EC3C3 /* Build configuration list for PBXNativeTarget "NXPopTipViewDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58242972250073E3001EC3C3 /* Debug */,
+				58242973250073E3001EC3C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58242974250073E3001EC3C3 /* Build configuration list for PBXNativeTarget "NXPopTipViewDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58242975250073E3001EC3C3 /* Debug */,
+				58242976250073E3001EC3C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 58242937250073E1001EC3C3 /* Project object */;
+}
