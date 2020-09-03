@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		58242944250073E1001EC3C3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 58242943250073E1001EC3C3 /* AppDelegate.m */; };
-		58242947250073E1001EC3C3 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 58242946250073E1001EC3C3 /* SceneDelegate.m */; };
 		5824294A250073E1001EC3C3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58242949250073E1001EC3C3 /* ViewController.m */; };
 		5824294D250073E1001EC3C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5824294B250073E1001EC3C3 /* Main.storyboard */; };
 		5824294F250073E2001EC3C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5824294E250073E2001EC3C3 /* Assets.xcassets */; };
@@ -16,6 +15,7 @@
 		58242955250073E2001EC3C3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 58242954250073E2001EC3C3 /* main.m */; };
 		5824295F250073E3001EC3C3 /* NXPopTipViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5824295E250073E3001EC3C3 /* NXPopTipViewDemoTests.m */; };
 		5824296A250073E3001EC3C3 /* NXPopTipViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 58242969250073E3001EC3C3 /* NXPopTipViewDemoUITests.m */; };
+		5824297D250074FC001EC3C3 /* NXPopTipView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5824297B250074FC001EC3C3 /* NXPopTipView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +39,6 @@
 		5824293F250073E1001EC3C3 /* NXPopTipViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NXPopTipViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		58242942250073E1001EC3C3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		58242943250073E1001EC3C3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		58242945250073E1001EC3C3 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		58242946250073E1001EC3C3 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		58242948250073E1001EC3C3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		58242949250073E1001EC3C3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		5824294C250073E1001EC3C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -54,6 +52,8 @@
 		58242965250073E3001EC3C3 /* NXPopTipViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NXPopTipViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		58242969250073E3001EC3C3 /* NXPopTipViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NXPopTipViewDemoUITests.m; sourceTree = "<group>"; };
 		5824296B250073E3001EC3C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5824297B250074FC001EC3C3 /* NXPopTipView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NXPopTipView.m; sourceTree = "<group>"; };
+		5824297C250074FC001EC3C3 /* NXPopTipView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NXPopTipView.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,10 +104,9 @@
 		58242941250073E1001EC3C3 /* NXPopTipViewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				58242977250073F2001EC3C3 /* NXPopTipView */,
 				58242942250073E1001EC3C3 /* AppDelegate.h */,
 				58242943250073E1001EC3C3 /* AppDelegate.m */,
-				58242945250073E1001EC3C3 /* SceneDelegate.h */,
-				58242946250073E1001EC3C3 /* SceneDelegate.m */,
 				58242948250073E1001EC3C3 /* ViewController.h */,
 				58242949250073E1001EC3C3 /* ViewController.m */,
 				5824294B250073E1001EC3C3 /* Main.storyboard */,
@@ -135,6 +134,15 @@
 				5824296B250073E3001EC3C3 /* Info.plist */,
 			);
 			path = NXPopTipViewDemoUITests;
+			sourceTree = "<group>";
+		};
+		58242977250073F2001EC3C3 /* NXPopTipView */ = {
+			isa = PBXGroup;
+			children = (
+				5824297C250074FC001EC3C3 /* NXPopTipView.h */,
+				5824297B250074FC001EC3C3 /* NXPopTipView.m */,
+			);
+			path = NXPopTipView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -268,9 +276,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				5824294A250073E1001EC3C3 /* ViewController.m in Sources */,
+				5824297D250074FC001EC3C3 /* NXPopTipView.m in Sources */,
 				58242944250073E1001EC3C3 /* AppDelegate.m in Sources */,
 				58242955250073E2001EC3C3 /* main.m in Sources */,
-				58242947250073E1001EC3C3 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
